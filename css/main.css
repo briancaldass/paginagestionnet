@@ -54,11 +54,41 @@ h2{
     
 }
 
+#contacto-linea{
+	background-color:  white;
+	width: 1170px;
+}
+
+#contenedormedio-contacto{	
+	height: 600px;
+	display: flex;
+	justify-content:space-between;
+	background: white;
+
+}
+
 .Copyrigts{
 	color: white;
 	background-color: #1f1f1f;
 	width: 1168px;
 	/*background-image: url("../img/bannerpric.png");*/
+}
+
+#enviar{
+
+	margin-top:5px; 
+	margin-right: 430px;
+}
+
+.form-contacto{
+	margin-top: 0px;
+	width: 650px;
+	background: url("../img/form-contacto.png");
+	background-repeat: no-repeat;
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+	padding-top: 200px;
 }
 
 .imagen{
@@ -79,7 +109,16 @@ h2{
 	height: 30px;
 	padding-top: 4px;
 }
+#nombre{
+	margin-right: 220px;
+	width: 280px;
+}
 
+#asunto{
+
+	width: 500px;
+	height: 110px;
+}
 
 
 
